@@ -1,0 +1,54 @@
+.jumbotron {
+  margin: 0px auto;
+  padding: 50px 30px;
+  background: #D1C4E9;
+  color: floralwhite; }
+
+.navbar-inverse {
+  background-color: #9575CD; }
+
+.footer {
+  margin: 0px auto;
+  padding: 20px 20px;
+  font-size: 12px;
+  background: #9575CD;
+  color: floralwhite; }
+
+.modal-content {
+  color: #000; }
+  .modal-content .modal-header {
+    background: #512DA8;
+    color: floralwhite; }
+    .modal-content .modal-header .close {
+      color: floralwhite; }
+  .modal-content .modal-body {
+    background: #D1C4E9; }
+  .modal-content .modal-footer {
+    background: #9575CD; }
+    .modal-content .modal-footer .button-spacer {
+      font-size: 20px;
+      color: floralwhite; }
+
+.carousel {
+  background-size: cover;
+  margin: auto; }
+  .carousel .carousel-item {
+    height: 500px; }
+    .carousel .carousel-item img {
+      margin: auto;
+      min-height: 300px;
+      width: 60%; }
+
+.aboutus {
+  padding: 5px 5px 5px 5; }
+
+.container {
+  position: relative;
+  text-align: right;
+  color: #512DA8;
+  font-size: 20px; }
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px; }

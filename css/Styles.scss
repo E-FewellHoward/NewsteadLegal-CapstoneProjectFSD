@@ -1,0 +1,92 @@
+$lt-gray:#ddd;
+$background-dark:#512DA8;
+$background-light:#9575CD;
+$background-pale:#D1C4E9;
+
+
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+	margin:0px auto;
+	padding: $pad-up-dn $pad-left-right;
+}
+
+//Height variables
+$carousel-item-height:500px;
+
+.jumbotron {
+	@include zero-margin(50px,30px);
+	background:$background-pale;
+	color:floralwhite;
+}
+
+.navbar-inverse {
+     background-color: $background-light;
+}
+
+.footer {
+	@include zero-margin(20px,20px);
+	font-size: 12px;
+	background:$background-light;
+	color:floralwhite;
+}
+
+.modal-content {
+    color: #000;
+	
+	.modal-header {
+	background:$background-dark;
+	color:floralwhite;
+	
+	.close {
+		color:floralwhite;
+	
+	}
+	}
+
+	.modal-body {
+		background:$background-pale;
+	}
+
+	.modal-footer {
+		background:$background-light;
+		
+		.button-spacer{
+			font-size: 20px;
+			color:floralwhite;
+		
+		}
+	}
+}
+
+.carousel {
+
+	background-size: cover;
+	margin: auto;
+	
+	.carousel-item {
+		height:$carousel-item-height;
+			
+		img {
+			margin: auto;
+			min-height:300px;
+			width: 60%;
+		}
+	}
+}
+
+.aboutus {
+	padding: 5px 5px 5px 5
+}
+
+.container {
+    position: relative;
+    text-align: right;
+    color: #512DA8;
+	font-size: 20px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
